@@ -23,6 +23,8 @@ form.addEventListener("submit", function (event) {
     removePreviousColor();
 
     previousSelectedElement = cell;
+
+	form.reset();
 });
 
 for (let i = 1; i <= 9; i++) {
